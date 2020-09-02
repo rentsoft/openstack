@@ -320,6 +320,7 @@ class Server extends OperatorResource implements Creatable, Updateable, Deletabl
      *
      * @param string $type the type of VNC console: novnc|xvpvnc.
      *                     Defaults to novnc
+     * @return array
      */
     public function getConsole($type = Enum::CONSOLE_NOVNC): array
     {
